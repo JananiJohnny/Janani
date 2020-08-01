@@ -24,7 +24,7 @@ var S = {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
      //S.UI.simulate('Hey Dude|Welcome|Hold on|#rectangle|#countdown 5|Happy|Porandha Nal|Valzthukal|Jonny(..)');
-	  S.UI.simulate('Hey');
+	  S.UI.simulate('Hey Dude | Please | Press | Right Top | Corner Icon');
     }
 
     S.Drawing.loop(function () {
